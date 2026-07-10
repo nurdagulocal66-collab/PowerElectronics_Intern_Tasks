@@ -22,7 +22,7 @@ Hall sensörü olmayan motorlarda, rotorun konumunu bulmak için Back-EMF (Zıt 
 
 
 
-!\[Proje Ekranı](resimler/ekran1.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran1.png)
 
 !\[Proje Ekranı](resimler/ekran2.png)
 
