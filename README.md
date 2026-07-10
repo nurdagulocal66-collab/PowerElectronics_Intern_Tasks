@@ -24,7 +24,7 @@ Hall sensörü olmayan motorlarda, rotorun konumunu bulmak için Back-EMF (Zıt 
 
 ![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran1.png)
 
-!\[Proje Ekranı](resimler/ekran2.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran2.png)
 
 Bu proje, ilerleyen aşamalarda  motor sürücü kartı (inverter) olarak geliştirilebilir bir donanım altyapısına sahiptir. Tasarım sürecinde, sistemin kontrol edeceği motorun(42BLF01) maksimum tepe akımı 5.7 Amper olarak baz alınmıştır. Kart üzerindeki tüm yol genişlikleri, katman yerleşimleri ve komponent seçimleri tamamen bu akım değeri göz önüne alınarak yapılmıştır.
 
@@ -42,13 +42,13 @@ MOSFET'ler çok hızlı açılıp kapandığı için devrede ciddi bir elektroma
 
 
 
-!\[Proje Ekranı](resimler/ekran3.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran3.png)
 
-!\[Proje Ekranı](resimler/ekran4.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran4.png)
 
-!\[Proje Ekranı](resimler/ekran5.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran5.png)
 
-!\[Proje Ekranı](resimler/ekran6.png)
+![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran6.png)
 
 
 
