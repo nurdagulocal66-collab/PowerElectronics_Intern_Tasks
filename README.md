@@ -16,7 +16,7 @@ Bu proje, Fırçasız DC (BLDC) motorları sürebilmek için tasarlanmış bir g
 
 &#x20;Motorun kararlı dönebilmesi için mikrodenetleyicinin, motorun içindeki mıknatısın (rotorun) o an fiziksel olarak nerede olduğunu bilmesi gerekir.
 
-Hall sensörü olmayan motorlarda, rotorun konumunu bulmak için Back-EMF (Zıt EMK) yöntemi kullanılır. 6 adımlı komütasyon mantığında her an 2 faza akım verilirken, 3. faz her zaman boşta bırakılır.
+Hall sensörü olmayan motorlarda, rotorun konumunu bulmak için Back-EMF  yöntemi kullanılır. 6 adımlı komütasyon mantığında her an 2 faza akım verilirken, 3. faz her zaman boşta bırakılır.
 
 &#x20;Motor dönerken tıpkı bir jeneratör gibi kendi içinde bir elektrik üretir. İşte boşta bırakılan bu 3. fazdan, motorun dönüşünden kaynaklanan Zıt EMK voltajı okunur. Bu sayede fiziksel bir sensöre ihtiyaç duymadan motorun anlık konumu tespit edilir ve bir sonraki PWM sinyalinin MOSFET'lere ne zaman gönderileceği kusursuz bir şekilde hesaplanır.
 
@@ -26,11 +26,11 @@ Hall sensörü olmayan motorlarda, rotorun konumunu bulmak için Back-EMF (Zıt 
 
 ![Proje Ekranı](https://github.com/nurdagulocal66-collab/PowerElectronics_Intern_Tasks/raw/main/resimler/ekran2.png)
 
-Bu proje, ilerleyen aşamalarda  motor sürücü kartı (inverter) olarak geliştirilebilir bir donanım altyapısına sahiptir. Tasarım sürecinde, sistemin kontrol edeceği motorun(42BLF01) maksimum tepe akımı 5.7 Amper olarak baz alınmıştır. Kart üzerindeki tüm yol genişlikleri, katman yerleşimleri ve komponent seçimleri tamamen bu akım değeri göz önüne alınarak yapılmıştır.
+Bu proje, ilerleyen aşamalarda  motor sürücü kartı  olarak geliştirilebilir bir donanım altyapısına sahiptir. Tasarım sürecinde, sistemin kontrol edeceği motorun(42BLF01) maksimum tepe akımı 5.7 Amper olarak baz alınmıştır. Kart üzerindeki tüm yol genişlikleri, katman yerleşimleri ve komponent seçimleri tamamen bu akım değeri göz önüne alınarak yapılmıştır.
 
 
 
-&#x20;Motorumuzun anlık olarak çekeceği 5.7A tepe akımının yolları eritmemesi, kartı aşırı ısıtmaması ve voltaj düşümüne (voltage drop) sebep olmaması için standart PCB kalınlık hesaplamalarını kullandık. 1 oz standart bakır kalınlığı için güç hatlarını ve motor faz çıkışlarını (U, V, W) 3 mm genişliğinde tasarlayarak kartın yüksek yük altında bile güvenle çalışmasını sağladık.Mikrodenetleyiciden çıkan, kapı sürücüye (gate driver) giden sinyal yollarını ve diğer lojik hatları 0.3 mm genişliğinde tuttuk.Bu yollardan yüksek bir akım geçmiyor, sadece veri ve tetikleme sinyalleri taşınıyor. Yolları ince tutarak hem kart üzerinde yer kazandık hem de sinyal yollarının birbirini etkilemesini engellemiş olduk.
+&#x20;Motorumuzun anlık olarak çekeceği 5.7A tepe akımının yolları eritmemesi, kartı aşırı ısıtmaması ve voltaj düşümüne  sebep olmaması için standart PCB kalınlık hesaplamalarını kullandık. 1 oz standart bakır kalınlığı için güç hatlarını ve motor faz çıkışlarını (U, V, W) 3 mm genişliğinde tasarlayarak kartın yüksek yük altında bile güvenle çalışmasını sağladık.Mikrodenetleyiciden çıkan, kapı sürücüye (gate driver) giden sinyal yollarını ve diğer lojik hatları 0.3 mm genişliğinde tuttuk.Bu yollardan yüksek bir akım geçmiyor, sadece veri ve tetikleme sinyalleri taşınıyor. Yolları ince tutarak hem kart üzerinde yer kazandık hem de sinyal yollarının birbirini etkilemesini engellemiş olduk.
 
 &#x20; Kartın alt katmanını  hiç bölmeden tamamen kesintisiz bir toprak düzlemi  yaptık.
 
